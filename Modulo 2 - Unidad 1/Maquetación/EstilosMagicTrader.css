@@ -1,0 +1,99 @@
+/* EstilosMagicTrader.css */
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: darkorange;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8c382 !important; /* Color más oscuro al hacer hover */
+}
+
+.dropdown-menu {
+    background-color: darkorange;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8c382; /* Fondo más oscuro al hacer hover */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-title {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    background-color: darkorange;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: darkorange;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #f8c382; /* Más oscuro al pasar el mouse */
+}
+
+footer {
+    background-color: darkorange;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .footer-logo {
+    text-align: left;
+}
+
+footer .footer-logo img {
+    height: 50px;
+}
+
+footer .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-info div {
+    text-align: left;
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
